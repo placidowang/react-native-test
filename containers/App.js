@@ -24,6 +24,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import CryptoList from './CryptoList.js';
+
 const App: () => React$Node = () => {
   return (
     <>
@@ -46,7 +48,8 @@ const App: () => React$Node = () => {
                 screen and then come back to see your edits.
               </Text>
               <Text>Or try this on for size.</Text>
-              <Text>There's a bogey on my tail!</Text>
+              <Text>Hdzcxv!</Text>
+              <CryptoList />
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>See Your Changes</Text>
